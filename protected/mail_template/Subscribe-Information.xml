@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+    <template>Subscribe Information</template>
+    <subject></subject>
+    <to>{Email}</to>
+    <info>Anda telah berhasil melakaukan subscribe newsletter</info>
+    <content>
+        <![CDATA[
+<div style="width:80%;min-width:230px;margin:0px auto;padding:10px">
+<div style="width:78%;min-width:230px;text-align:justify"><br>
+<br>
+<div style="width:70%;min-width:150px;text-align:justify">
+Data anda sudah tervalidasi : <br><br>
+<table border="0">
+    <tr>
+        <td>Email anda</td>
+        <td>:</td>
+        <td>{Email}</td>
+    </tr>
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td>:</td>
+        <td>{SubscribeDate}</td>
+    </tr>
+</table>
+<br>
+Selamat Menikmati layanan dari kami.<br>
+<br><br>
+Terima kasih.
+<br>
+<b>Century Software</b><br>
+</div></div></div>
+        ]]>
+    </content>
+</mail>

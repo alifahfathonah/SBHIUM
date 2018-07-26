@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+    <template>ALERT_UNHANDLED_ERROR</template>
+    <subject>RDO Unhandled Error Notification</subject>
+    <to>afrimadoni@praisindo.com,rendra@praisindo.com</to>
+    <info>Email yang terkim kepada developer ketika terjadi error code 1</info>
+    <content>
+        <![CDATA[
+            <p>Fatal error occured with the following detail :</p>
+            <ul>
+                <li>Application : {app}</li>
+                <li>WS Method : {ws}</li>
+                <li>File : {file}</li>
+                <li>ErrCodeStr : {errCodeStr}</li>
+                <li>Desc : {errString}</li>
+            </ul>
+        ]]>
+    </content>
+</mail>
